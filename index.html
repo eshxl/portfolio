@@ -13,8 +13,6 @@
     <a href="#home" class="logo">
       Eshal <span class="glow-hover">Shanoj</span>
     </a>
-    <i class="bx bx-menu" id="menu-icon"></i>
-
     <nav class="navbar">
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -22,7 +20,8 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>
+    <i class="bx bx-menu" id="menu-icon"></i>
+  </header>  
 
   <section class="home" id="home">
     <div class="home-content">
@@ -50,18 +49,23 @@
       <img src="images/me1.jpg" alt="me">
     </div>
     <div class="about-content">
-        <h2>About <span class="glow-hover">Me</span></h2>
-        <br>
-        <p>Hey! I'm Eshal — a creative, driven, and detail-oriented Software Engineering student at VIT Vellore. I specialize in building responsive and elegant web experiences, blending design and logic to create solutions that are both functional and aesthetic.</p>
-        <br>
-        <p>With a strong foundation in software engineering and growing expertise in AI and data-driven technologies, I love tackling real-world problems through innovation and collaboration. Currently, I’m diving deeper into data mining and big data, expanding my understanding of how technology can shape smarter systems.</p>
-        <br>
-        <p>Beyond the screen, I enjoy photography, storytelling, making videos, and spending time offline — drawing inspiration from the world around me. I'm also passionate about leading teams and organizing impactful events, where creativity and strategy meet.</p>
-        <br>
-        <p>I'm actively seeking opportunities to apply my skills, learn hands-on, and grow into a well-rounded tech professional who builds with purpose.</p>      
-        <br>
-        <a href="#projects" class="btn">See Projects</a>
-        <!--DO READ MORE INSTEAD, CUTTING THE CONTENT IN HALF OR SOMETHING -->
+      <h2>About <span class="glow-hover">Me</span></h2>
+      <br>
+      <p>
+        Hey! I'm Eshal — a creative, driven, and detail-oriented Software Engineering student at VIT Vellore. I specialize in building responsive and elegant web experiences, blending design and logic to create solutions that are both functional and aesthetic.
+        <span id="dots">...</span>
+        <span id="more">
+          <br><br>
+          With a strong foundation in software engineering and growing expertise in AI and data-driven technologies, I love tackling real-world problems through innovation and collaboration. Currently, I’m diving deeper into data mining and big data, expanding my understanding of how technology can shape smarter systems.
+          <br><br>
+          Beyond the screen, I enjoy photography, storytelling, making videos, and spending time offline — drawing inspiration from the world around me. I'm also passionate about leading teams and organizing impactful events, where creativity and strategy meet.
+          <br><br>
+          I'm actively seeking opportunities to apply my skills, learn hands-on, and grow into a well-rounded tech professional who builds with purpose.
+        </span>
+      </p>
+      <span id="readMoreBtn" onclick="toggleReadMore()" style="color: var(--main-color); cursor: pointer;">Read More</span>
+      <br><br>
+      <a href="#projects" class="btn">See Projects</a>
     </div>
   </section>
 
@@ -128,8 +132,8 @@
         <img src="images/pharmease.jpg" alt="pharmease">
         <h3>PharmEase (Pharmacy App)- Development and Testing</h3>
         <p>Online medicine ordering platform with admin and user workflows (Java).</p>
-        <a href="#" class="btn btn-outline"target="_blank">
-          Review Project <i class="bx bx-link-external" style="margin-left: 2px;"></i>
+        <a href="https://github.com/eshxl/PharmEase-Software-Testing" class="btn btn-outline"target="_blank">
+          View on GitHub <i class="bx bx-link-external" style="margin-left: 2px;"></i>
         </a>
       </div>
       <div class="project-card">
