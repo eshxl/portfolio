@@ -434,11 +434,12 @@ section {
   align-self: center;
 }
 
-#dots, #more {
+#dots {
   color: var(--text-color) !important;
 }
 
 #more {
+  color: var(--text-color) !important;
   display: none;
 }
 
