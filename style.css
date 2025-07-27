@@ -79,7 +79,7 @@ span {
 }
 
 .navbar a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--text-color);
   margin-left: 3rem;
   font-weight: 500;
@@ -546,7 +546,7 @@ section {
   }
 
   .navbar a {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     text-align: center;
     display: block;
