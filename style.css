@@ -438,6 +438,10 @@ section {
   color: var(--text-color) !important;
 }
 
+#more {
+  display: none;
+}
+
 #readMoreBtn {
   color: var(--main-color) !important;
   text-decoration: underline;
@@ -542,7 +546,7 @@ section {
   }
 
   .navbar a {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: var(--text-color);
     text-align: center;
     display: block;
